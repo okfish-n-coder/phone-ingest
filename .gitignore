@@ -1,26 +1,30 @@
 ```
-# Dependencies
+# Executable/binary files
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+*.out
+*.class
+*.pyc
+
+# Dependencies and build directories
 node_modules/
 venv/
 .venv/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
+dist/
+build/
 target/
 .gradle/
 
-# Build artifacts
-dist/
-build/
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
+# Environment files
+.env
+.env.local
+*.env.*
 
 # Editor/IDE files
 .vscode/
@@ -32,12 +36,11 @@ build/
 # System files
 .DS_Store
 Thumbs.db
-.env
-.env.local
-*.env.*
 
-# Logs and coverage
+# Logs
 *.log
+
+# Coverage
 coverage/
 htmlcov/
 .coverage
@@ -61,4 +64,8 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-```.next/
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
