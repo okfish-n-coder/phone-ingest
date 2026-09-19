@@ -1,5 +1,15 @@
 ```
-# Dependencies
+# Executable/binary files
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+*.out
+*.class
+*.pyc
+
+# Dependencies and build directories
 node_modules/
 
 # Environment
